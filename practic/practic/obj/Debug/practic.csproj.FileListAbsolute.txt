@@ -1,0 +1,8 @@
+C:\Users\dell\source\repos\practic\practic\obj\Debug\practic.csproj.AssemblyReference.cache
+C:\Users\dell\source\repos\practic\practic\obj\Debug\practic.csproj.SuggestedBindingRedirects.cache
+C:\Users\dell\source\repos\practic\practic\obj\Debug\practic.csproj.CoreCompileInputs.cache
+C:\Users\dell\source\repos\practic\practic\bin\Debug\practic.exe.config
+C:\Users\dell\source\repos\practic\practic\bin\Debug\practic.exe
+C:\Users\dell\source\repos\practic\practic\bin\Debug\practic.pdb
+C:\Users\dell\source\repos\practic\practic\obj\Debug\practic.exe
+C:\Users\dell\source\repos\practic\practic\obj\Debug\practic.pdb
