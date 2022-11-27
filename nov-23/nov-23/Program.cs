@@ -29,21 +29,20 @@ namespace nov_23
 
         }
         //----------------------------------------------------------
-        static void task2()
+        static int task2()
         {
             Console.WriteLine("======== cube   =====");
             Console.Write("Input number of terms : ");
-            int u, str2;
+            int str2;
             str2 = Convert.ToInt32(Console.ReadLine());
-            for (u = 1; u <= str2; u++)
-            {
-                Console.WriteLine("number is : {0} and cube of the {1} is:{2dd} \n", u, u, (u * u * u));
-            }
+            return str2 * str2 * str2;
+
         } 
         //---------------------------------------------------------------
 
         static void task3()
         {
+            Console.WriteLine("==========max year============");
 
             int[] years = { 1763, 1972, 1925, 1916, 1984, 1124, 1950, 2020 };
 
@@ -69,6 +68,7 @@ namespace nov_23
 
         static double task4(double g)
         {
+            Console.WriteLine("================days of year=============");
             double days = 0;
             days = g * 365;
             return days;
@@ -79,7 +79,7 @@ namespace nov_23
 
         static void task5() 
         {
-
+            Console.WriteLine("===============number of leg==========");
             Console.WriteLine("Number of the first animal ");
             int c = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Number of the second animal ");
@@ -96,30 +96,37 @@ namespace nov_23
 
         //-------------------------------------------------------
 
-        static void task6(string email,string pass)
+        static void task6()
         {
-            string[] email1 = { "sohaib", "alrousan" };
-            string[] pass1 = { "123", "456" };
-            int r = 0;
-            int m;
-            for(m = 0; m < email1.Length; m++)
+            Console.WriteLine("============email and password==========");
+            Console.WriteLine("enter your email");
+            string email = Console.ReadLine();
+            Console.WriteLine("enter your password");
+           string pass = Console.ReadLine();
+
+            string[] email1 = { "sohaib", "alrousan","ahmad" };
+            string[] pass1 = { "123", "456","789" };
+            bool flag=false;
+            for(int i  = 0; i < email1.Length; i++)
             {
-                if (email == email1[m] && pass == pass1[m])
+                if (email == email1[i] && pass == pass1[i])
                 {
-                    Console.WriteLine("passed");
+                    flag = true;                   
+                    break;
                 }
-                else  
-                {
-                    r++;
-                }
+                
 
 
-                if (m == r) { Console.WriteLine("faild"); }
+                 }
 
-
+            if (flag == true)
+            {
+                Console.WriteLine("pass");
             }
-            //if (m == r) { Console.WriteLine("faild"); }
-
+            else
+            {
+                Console.WriteLine("failed");
+            }
 
 
 
@@ -128,6 +135,7 @@ namespace nov_23
         //---------------------------------------------------------
         static int power(int x,int n)
         {
+            Console.WriteLine("=================power=============");
             int pow = 1;
             for(int o=0; o<n; o++) {
                 pow = pow * x;
@@ -138,6 +146,7 @@ namespace nov_23
         //-----------------------------------------------
         static void leap(int year)
         {
+            Console.WriteLine("==================leap===============");
             if(year>=1900 && year < 2024)
             {
                 if (year % 4 == 0 && year % 100 != 0)
@@ -154,6 +163,7 @@ namespace nov_23
         //---------------------------------------------------
         static void prime()
         {
+            Console.WriteLine("==============prime==============");
             Console.Write("Enter the Number to check Prime: ");
             int k, j, z = 0,flag=0;
             k = int.Parse(Console.ReadLine());
@@ -170,7 +180,7 @@ namespace nov_23
             }
             if (flag == 0)
             
-                Console.Write("Number is Prime.");
+                Console.WriteLine("Number is Prime.");
             
 
         }
@@ -179,54 +189,56 @@ namespace nov_23
 
         static void numbers()
         {
+            Console.WriteLine("======================santance lenght==========");
             string s = Console.ReadLine();
-            Console.WriteLine(s.Length);
+            int space=0;
+            for(int i = 0; i < s.Length; i++)
+            {
+                if (s[i]==' ')
+                {
+                    space++;
+                }
+            }
+            Console.WriteLine("numberb of words : "+(space+1));
 
         }
         static void Main(string[] args)
         {
 
-            //task 1
             //task1();
 
-            //task2
-            //task2();
+            //Console.WriteLine(task2());
 
 
-            //task3
-            // task3();
+            //task3();
 
 
-            //task4
             //Console.WriteLine("enter your age in year ");
             //double days = Convert.ToDouble(Console.ReadLine());
             //Console.WriteLine(task4(days));
 
 
-            //task5
-            //task5();  
+            //task5();
 
 
-            //task6
-            //task6("sohaib", "123");
+            task6();
+            
 
 
-            //task7
-            //int x = 2;
-            //int n = 3;
+            //Console.WriteLine("enter your number");
+            //int x =Convert.ToInt32( Console.ReadLine());
+            //Console.WriteLine("enter the power of your number");
+            //int n = Convert.ToInt32(Console.ReadLine());
             //Console.WriteLine(power(x, n));
 
 
-            //task8
             //leap(2004);
 
 
-           //task9
-          // prime();
+            //prime();
 
 
-            //task10
-            numbers();
+            //numbers();
         }
     }
 }
