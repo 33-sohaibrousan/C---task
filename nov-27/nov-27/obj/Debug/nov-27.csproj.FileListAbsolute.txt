@@ -1,0 +1,8 @@
+C:\Users\dell\C---task\nov-27\nov-27\bin\Debug\nov-27.exe.config
+C:\Users\dell\C---task\nov-27\nov-27\bin\Debug\nov-27.exe
+C:\Users\dell\C---task\nov-27\nov-27\bin\Debug\nov-27.pdb
+C:\Users\dell\C---task\nov-27\nov-27\obj\Debug\nov-27.csproj.AssemblyReference.cache
+C:\Users\dell\C---task\nov-27\nov-27\obj\Debug\nov-27.csproj.SuggestedBindingRedirects.cache
+C:\Users\dell\C---task\nov-27\nov-27\obj\Debug\nov-27.csproj.CoreCompileInputs.cache
+C:\Users\dell\C---task\nov-27\nov-27\obj\Debug\nov-27.exe
+C:\Users\dell\C---task\nov-27\nov-27\obj\Debug\nov-27.pdb
