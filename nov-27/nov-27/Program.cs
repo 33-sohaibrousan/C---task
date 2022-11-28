@@ -30,7 +30,7 @@ namespace nov_27
             }
             else
             {
-                Console.WriteLine("your age is not available");
+               //Console.WriteLine("your age is not available");
             }
 
 
@@ -49,7 +49,7 @@ namespace nov_27
             }
             else
             {
-                Console.WriteLine("this number is wrong");
+               this.phone = "this number is wrong";
             }
         }
 
@@ -69,7 +69,7 @@ namespace nov_27
             Console.WriteLine("enter your age");
             int age = Convert.ToInt32(Console.ReadLine());
 
-
+            
             Class1 info = new Class1(age, gender, name, email, id, phone);
 
             Console.WriteLine($"my name is : {info.name}\n"+ $"my gender is : {info.gender}\n" + $"my email is : {info.email}\n" + $"my phone number is : {info.phone}\n" + $"my id is : {info.ID}\n" + $"my age is : {info.age}\n");
