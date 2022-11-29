@@ -1,3 +1,8 @@
 C:\Users\dell\C---task\nov-28\nov-28\obj\Debug\nov-28.csproj.AssemblyReference.cache
 C:\Users\dell\C---task\nov-28\nov-28\obj\Debug\nov-28.csproj.SuggestedBindingRedirects.cache
 C:\Users\dell\C---task\nov-28\nov-28\obj\Debug\nov-28.csproj.CoreCompileInputs.cache
+C:\Users\dell\C---task\nov-28\nov-28\bin\Debug\nov-28.exe.config
+C:\Users\dell\C---task\nov-28\nov-28\bin\Debug\nov-28.exe
+C:\Users\dell\C---task\nov-28\nov-28\bin\Debug\nov-28.pdb
+C:\Users\dell\C---task\nov-28\nov-28\obj\Debug\nov-28.exe
+C:\Users\dell\C---task\nov-28\nov-28\obj\Debug\nov-28.pdb
